@@ -13,7 +13,7 @@ signed main(){
     
     int guess=-1;
     do{
-        cout<<"enter your guess"<<endl;
+        cout<<"enter your guess "<<endl;
         cin>>guess;
         if((guess-num)>0){
             if((guess-num)>((b-a)/2)){
